@@ -1,0 +1,134 @@
+body{
+    background-color:rgb(175, 160, 126);
+}
+.container{
+    width: 70vw;
+    height: 86vh;
+    background-color:rgb(203, 204, 199);
+    border: 1px  solid rgb(203, 204, 199);
+    margin-left: 29vw;
+    margin-top: -86vh;
+    border-radius: 5% 5% 5% 5%;
+}
+.menu{
+    border: 1px solid rgb(175, 160, 126);
+    width: 15vw;
+    height: 88vh;    
+    margin-left: 3vw;
+    color: white;
+    align-items: center;
+    font-size: 1.4vw;
+    
+}
+.cuadrito{
+    width: 5vw;
+    height: 2vh;
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    
+}
+.texto1{
+    color: white;
+
+    
+}
+.Abrigos, .Camisetas, .Pantalones, .Carrito, .Tp{
+    text-decoration: none;
+    color: black;
+}
+
+.img1{
+    margin-left: 5vw;
+    position: relative;
+    width: 10vw;
+    height: 28vh;
+
+}
+.img2{
+    margin-left: 5vw;
+    position: relative;
+    height: 27.1vh;
+}
+.img3{
+    margin-left: 5vw;
+    position: relative;
+    margin-top: 2;
+    height: 28vh;
+}
+.img4{
+    margin-left: 5vw;
+    position: relative;
+    height: 28vh;
+}
+.img5{
+    top: 13vh;
+    margin-left: 5vw;
+    position: relative;
+    height: 22vh;
+}
+
+.textos{
+    margin-left:4vw;
+}
+.producto{
+    display: flex;
+    
+    
+}
+.productoo{
+    display: flex;
+
+    
+}
+.Ci{
+    width: 10vw;
+    height: 13vh;
+    background-color: beige;
+    margin-top: 26.8vh;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    margin-left: 5vw;
+
+}
+.Ci1{
+    width: 10.5vw;
+    height: 13vh;
+    background-color: beige;
+    margin-top: 26.8vh;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    margin-left: 20vw;
+
+}
+.Ci2{
+    width: 10.5vw;
+    height: 13vh;
+    background-color: beige;
+    margin-top: 28vh;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    margin-left: 51vw;
+
+}
+.Ci3{
+    width: 10.5vw;
+    height: 13vh;
+    background-color: beige;
+    margin-top: 26.8vh;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    margin-left: 35.5vw;
+
+}
+.Ci4{
+    width: 10.5vw;
+    height: 15vh;
+    background-color: beige;
+    margin-top: 32vh;
+    position: absolute;
+    border-radius: 10px 10px 10px 10px ;
+    margin-left: 5vw;
+
+}
+
