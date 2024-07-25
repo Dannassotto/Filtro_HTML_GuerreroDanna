@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(233, 224, 205);
+}
+
+.menu {
+    border: 1px solid rgb(175, 160, 126);
+    background-color: rgb(155, 154, 152);
+    width: 25vw;
+    margin-top: 5vh;
+    height: 94vh;
+    margin-left: 3vw;
+    color: white;
+    align-items: center;
+    font-size: 1.4vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu h1 {
+    color: white;
+}
+
+.menu a {
+    display: block;
+    font-size: 1.4vw;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.menu img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.barra {
+    width: 2vw;
+    height: 94.2vh;
+    background-color: black;
+    margin-left: 21vw;
+    margin-top: -94.8vh;
+}
+
+.container {
+    overflow: scroll;
+    width: 70vw;
+    height: 93vh;
+    background-color: rgb(203, 204, 199);
+    border: 1px solid rgb(203, 204, 199);
+    margin-left: 29vw;
+    margin-top: -95vh;
+    border-radius: 5% 5% 5% 5%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.textos {
+    margin-left: 4vw;
+    font-size: 22px;
+    color: #333;
+}
+
+.producto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto-item {
+    width: 23%;
+    background-color: beige;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+
+.producto-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto-item .info {
+    text-align: center;
+}
+
+.producto-item .info p {
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.producto-item .info b {
+    font-size: 12px;
+    color: #000;
+}
+
+.producto-item .cuadrito a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: greenyellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .barra {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .producto-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .producto-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .producto-item .info p {
+        font-size: 12px;
+    }
+
+    .producto-item .info b {
+        font-size: 14px;
+    }
+}
